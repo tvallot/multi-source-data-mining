@@ -1,4 +1,4 @@
-patient_number,family_name,given_name,date_of_birth,registered_sex,home_region,occupation_text,registration_date,primary_facility_license,record_status,occupation_norm,occupation_detaillee
+patient_number,family_name,given_name,date_of_birth,registered_sex,home_region,occupation_text,registration_date,primary_facility_license,record_status,occupation_norm,occupation_detailed
 PAT-31162,Varen,Eli,1962-04-19T00:00:00,male,Valenne Republic,corporate adviser,2018-01-01T00:00:00,FAC-VLN-101,inactive,corporate adviser,False
 PAT-31040,Valen,Jonah,1972-06-12T00:00:00,male,Valenne Republic,research professional,2017-02-01T00:00:00,FAC-AVL-201,active,research professional,False
 PAT-31115,Oren,Nadia,1979-09-03T00:00:00,female,Valenne Republic,clinical specialist,2018-05-01T00:00:00,FAC-AVL-301,active,clinical specialist,False

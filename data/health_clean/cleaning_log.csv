@@ -1,0 +1,42 @@
+table,action,n
+patient_administration,exact duplicate removed,1
+clinical_encounters,exact duplicate removed,2
+clinical_observations,exact duplicate removed,2
+clinical_procedures,exact duplicate removed,1
+patient_administration,extra spaces: family_name,1
+patient_administration,extra spaces: occupation_text,2
+patient_administration,capitalisation: record_status,1
+patient_administration,majority spelling: home_region,1
+clinical_encounters,extra spaces: service_unit,3
+clinical_encounters,capitalisation: encounter_type,5
+clinical_encounters,capitalisation: referral_source,3
+clinical_encounters,capitalisation: disposition,3
+clinical_observations,extra spaces: observation_name,50
+clinical_observations,capitalisation: interpretation_code,60
+clinical_observations,capitalisation: quality_code,20
+clinical_procedures,extra spaces: procedure_description,1
+clinical_procedures,capitalisation: authorization_class,2
+clinical_procedures,capitalisation: outcome_code,2
+clinical_encounters,null/NA/N/A -> missing: follow_up_date,3
+clinical_observations,null/NA/N/A -> missing: text_value,35
+clinical_observations,null/NA/N/A -> missing: device_reference,20
+clinical_procedures,null/NA/N/A -> missing: material_reference,1
+patient_administration,date put back in standard format: registration_date,2
+clinical_encounters,date put back in standard format: encounter_start,4
+clinical_encounters,date put back in standard format: encounter_end,4
+clinical_encounters,date put back in standard format: follow_up_date,2
+clinical_procedures,date put back in standard format: scheduled_time,2
+clinical_procedures,date put back in standard format: performed_time,1
+clinical_observations,comma replaced by a point: numeric_value,180
+clinical_observations,attached unit removed: numeric_value,160
+clinical_observations,constant column removed: quality_code,17734
+clinical_procedures,constant column removed: procedure_status,310
+cardiac_recordings,constant column removed: channel_count,44
+cardiac_recordings,constant column removed: amplitude_unit,44
+cardiac_recordings,constant column removed: archive_status,44
+clinical_notes,constant column removed: superseded_document_id,30
+cardiac_recordings,recomputable column removed: sampling_interval_ms,44
+clinical_observations,name/unit/range moved to the catalog,17734
+clinical_procedures,description moved to the procedure catalog,310
+clinical_observations,flagged as outside the normal range (kept),126
+clinical_observations,flagged as extreme (kept),215

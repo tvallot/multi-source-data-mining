@@ -1,4 +1,4 @@
-observation_number,encounter_number,patient_number,observation_time,observation_code,numeric_value,text_value,interpretation_code,device_reference,assessor_license_number,hors_plage_ref,outlier_iqr
+observation_number,encounter_number,patient_number,observation_time,observation_code,numeric_value,text_value,interpretation_code,device_reference,assessor_license_number,out_of_ref_range,outlier_iqr
 OBS-0000001,ENC-000001,PAT-31162,2018-02-27T09:27:00,RPULSE,64.0,,within_expected_range,DEV-002,LIC-VLN-MED-1001,False,False
 OBS-0000002,ENC-000001,PAT-31162,2018-02-27T09:27:30,APICAL,88.5,,within_expected_range,DEV-002,LIC-VLN-MED-1001,False,False
 OBS-0000003,ENC-000001,PAT-31162,2018-02-27T09:28:00,PPULSE,75.8,,within_expected_range,DEV-002,LIC-VLN-MED-1001,False,False
