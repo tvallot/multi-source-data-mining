@@ -1,0 +1,42 @@
+table,action,n
+patient_administration,doublon exact supprimé,1
+clinical_encounters,doublon exact supprimé,2
+clinical_observations,doublon exact supprimé,2
+clinical_procedures,doublon exact supprimé,1
+patient_administration,espaces en trop : family_name,1
+patient_administration,espaces en trop : occupation_text,2
+patient_administration,majuscules : record_status,1
+patient_administration,écriture majoritaire : home_region,1
+clinical_encounters,espaces en trop : service_unit,3
+clinical_encounters,majuscules : encounter_type,5
+clinical_encounters,majuscules : referral_source,3
+clinical_encounters,majuscules : disposition,3
+clinical_observations,espaces en trop : observation_name,50
+clinical_observations,majuscules : interpretation_code,60
+clinical_observations,majuscules : quality_code,20
+clinical_procedures,espaces en trop : procedure_description,1
+clinical_procedures,majuscules : authorization_class,2
+clinical_procedures,majuscules : outcome_code,2
+clinical_encounters,null/NA/N/A -> manquant : follow_up_date,3
+clinical_observations,null/NA/N/A -> manquant : text_value,35
+clinical_observations,null/NA/N/A -> manquant : device_reference,20
+clinical_procedures,null/NA/N/A -> manquant : material_reference,1
+patient_administration,date remise au format standard : registration_date,2
+clinical_encounters,date remise au format standard : encounter_start,4
+clinical_encounters,date remise au format standard : encounter_end,4
+clinical_encounters,date remise au format standard : follow_up_date,2
+clinical_procedures,date remise au format standard : scheduled_time,2
+clinical_procedures,date remise au format standard : performed_time,1
+clinical_observations,virgule remplacée par un point : numeric_value,180
+clinical_observations,unité collée retirée : numeric_value,160
+clinical_observations,colonne constante supprimée : quality_code,17734
+clinical_procedures,colonne constante supprimée : procedure_status,310
+cardiac_recordings,colonne constante supprimée : channel_count,44
+cardiac_recordings,colonne constante supprimée : amplitude_unit,44
+cardiac_recordings,colonne constante supprimée : archive_status,44
+clinical_notes,colonne constante supprimée : superseded_document_id,30
+cardiac_recordings,colonne recalculable supprimée : sampling_interval_ms,44
+clinical_observations,nom/unité/plage déplacés dans le catalogue,17734
+clinical_procedures,description déplacée dans le catalogue des actes,310
+clinical_observations,marquées hors plage normale (gardées),126
+clinical_observations,marquées extrêmes (gardées),215

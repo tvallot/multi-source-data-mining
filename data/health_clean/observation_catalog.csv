@@ -1,0 +1,33 @@
+observation_code,nom,unite,plage,n_mesures,n_nombres,type,plage_min,plage_max
+AGECOND,Age-related condition count,count,0–10,240,240,nombre,0.0,10.0
+APICAL,Apical cardiac rate,bpm,50–110,1017,1017,nombre,50.0,110.0
+BALANCE,Balance score,index,0–100,947,947,nombre,0.0,100.0
+BINOCOORD,Binocular coordination,,normal; reduced; atypical; not tested,240,0,texte,,
+BIOAGE,Estimated biological age,years,18–100,934,934,nombre,18.0,100.0
+CAMMATCH,Camera match confidence,index,0–100,240,240,nombre,0.0,100.0
+CARDOUT,Estimated cardiac output,L/min,3.5–8.0,941,941,nombre,3.5,8.0
+COGNITIVE,Cognitive score,index,0–100,948,948,nombre,0.0,100.0
+CVRISK,Cardiovascular risk score,index,0–100,240,240,nombre,0.0,100.0
+DIABP,Diastolic blood pressure,mmHg,50–110,240,240,nombre,50.0,110.0
+GAITSYM,Gait symmetry index,index,0–100,240,240,nombre,0.0,100.0
+IDCONS,Identity consistency score,index,0–100,240,240,nombre,0.0,100.0
+INFLAM,Normalized inflammation marker,index,0–1.5,931,931,nombre,0.0,1.5
+LATSWAY,Lateral sway index,index,0–100,934,934,nombre,0.0,100.0
+LEFTEYE,Left-eye deviation,degrees,-20–20,240,240,nombre,-20.0,20.0
+MOBILITY,Mobility score,index,0–100,936,936,nombre,0.0,100.0
+MUSC,Musculoskeletal condition,,none; mild; moderate; severe,240,0,texte,,
+NEURO,Neurological deficit,,none; mild; moderate; severe; unknown,240,0,texte,,
+O2SAT,Peripheral oxygen saturation,%,94–100,1017,1017,nombre,94.0,100.0
+OCULAR,Ocular tracking interpretation,,normal; atypical; inconclusive,910,0,texte,,
+PPULSE,Peripheral pulse rate,bpm,50–100,1017,1017,nombre,50.0,100.0
+RIGHTEYE,Right-eye deviation,degrees,-20–20,240,240,nombre,-20.0,20.0
+RPULSE,Resting pulse,bpm,50–100,1017,1017,nombre,50.0,100.0
+STROKEVOL,Estimated stroke volume,mL,45–120,240,240,nombre,45.0,120.0
+SYSBP,Systolic blood pressure,mmHg,90–180,240,240,nombre,90.0,180.0
+THERMQUAL,Thermal detection quality,index,0–100,240,240,nombre,0.0,100.0
+THORPEAK,Thoracic secondary peak index,index,0–100,932,932,nombre,0.0,100.0
+THORVIB,Thoracic vibration index,index,0–100,933,933,nombre,0.0,100.0
+VALEFT,Left visual acuity,ratio,.4–1.2,240,240,nombre,0.4,1.2
+VARIGHT,Right visual acuity,ratio,.4–1.2,240,240,nombre,0.4,1.2
+VESTIB,Vestibular test result,,normal; abnormal; inconclusive; not tested,240,0,texte,,
+WALKSPD,Walking speed,m/s,.5–1.8,240,240,nombre,0.5,1.8
