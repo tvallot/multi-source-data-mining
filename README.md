@@ -40,18 +40,14 @@ The full investigation, step by step, is in [`notebooks/00_synthesis.ipynb`](not
 │   └── data_dictionary.csv
 ├── notebooks/
 │   ├── 00_synthesis.ipynb               Synthesis: links the four datasets
-│   ├── public_records.ipynb             Public records
-│   ├── ecology.ipynb                    Ecology
-│   ├── 01_cleaning_logistics.ipynb      Logistics: cleaning
-│   ├── 02_analysis_logistics.ipynb      Logistics: analysis
-│   ├── 01_cleaning_health.ipynb         Health: cleaning
-│   ├── 02_analysis_health.ipynb         Health: full analysis
-│   ├── 03_report_health.ipynb           Health: short report
-│   └── health_utils.py                  Shared functions of the health dataset
+│   ├── public_records/public_records.ipynb
+│   ├── ecology/ecology.ipynb
+│   ├── logistics/                       01_cleaning, 02_analysis
+│   └── health/                          01_cleaning, 02_analysis, 03_report, health_utils.py
 └── requirements.txt
 ```
 
-**Where to start?** With `00_synthesis.ipynb` for the overall result, then `03_report_health.ipynb` for an example of a complete report on one dataset. The notebooks keep their outputs, so there is no need to rerun everything to read them.
+**Where to start?** With `00_synthesis.ipynb` for the overall result, then `health/03_report.ipynb` for an example of a complete report on one dataset. The notebooks keep their outputs, so there is no need to rerun everything to read them.
 
 ## Running the notebooks
 
@@ -63,7 +59,7 @@ cd notebooks
 jupyter notebook
 ```
 
-The notebooks must be run from the `notebooks/` folder (they read `../data/`). Run the `01_cleaning_*` notebooks before the corresponding analyses: they create `data/logistics/clean/` and `data/health_clean/`.
+Each notebook must be run from its own folder (it reads `../data/` or `../../data/`); Jupyter does this by default. Run the `01_cleaning` notebooks before the corresponding analyses: they create `data/logistics/clean/` and `data/health_clean/`.
 
 ## Use of generative AI
 

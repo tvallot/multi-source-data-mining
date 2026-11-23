@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from scipy.signal import find_peaks
 
-FOLDER = Path("../data/health_clean")
+FOLDER = Path("../../data/health_clean")
 
 # repeated measurements kept for the clustering
 KEPT_REPEATED_MEASURES = ["PPULSE", "PULSE_GAP", "RPULSE", "AGE_GAP", "BALANCE", "CARDOUT", "COGNITIVE",
