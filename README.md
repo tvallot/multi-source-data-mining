@@ -43,11 +43,11 @@ The full investigation, step by step, is in [`notebooks/00_synthesis.ipynb`](not
 │   ├── public_records/public_records.ipynb
 │   ├── ecology/ecology.ipynb
 │   ├── logistics/                       01_cleaning, 02_analysis
-│   └── health/                          01_cleaning, 02_analysis, 03_report, health_utils.py
+│   └── health/                          01_cleaning, 02_full_analysis_appendix, 03_report, health_utils.py
 └── requirements.txt
 ```
 
-**Where to start?** With `00_synthesis.ipynb` for the overall result, then `health/03_report.ipynb` for an example of a complete report on one dataset. The notebooks keep their outputs, so there is no need to rerun everything to read them.
+**Where to start?** With `00_synthesis.ipynb` for the overall result, then `health/03_report.ipynb`, the best example of a complete report on one dataset. `health/02_full_analysis_appendix.ipynb` is an optional appendix with every method tried, course by course. The notebooks keep their outputs, so there is no need to rerun everything to read them.
 
 ## Running the notebooks
 
