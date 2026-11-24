@@ -14,6 +14,10 @@ A group data-mining project (Master 2 AI / Data Science). Four synthetic dataset
 | **10 patients** show physiological signals incompatible with a human norm (two independent cardiac rhythms, atypical gait) | health | PCA, hierarchical clustering, DBSCAN, ECG signal analysis |
 | **8 executives** have a biological age about 13 years below their actual age; **30 injections out of 30** match a stock withdrawal on the same day | health + logistics | permutation test, cross-referencing the tables |
 
+![Timeline of the two flows through the logistics company: night-time accesses and wildlife shipments (2018-2025), clinic deliveries and executive injections (from 2014)](docs/meridian-two-flows.png)
+
+*Figure from the synthesis notebook: each row is a type of event. The accesses and the "wildlife" shipments overlap exactly, while the clinic deliveries and the injections start four years earlier: two distinct flows.*
+
 The full investigation, step by step, is in [`notebooks/00_synthesis.ipynb`](notebooks/00_synthesis.ipynb).
 
 ## Methods used
